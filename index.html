@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Landing Page</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Front Page -->
+    <div id="front-page">
+
+        <h1>My Website</h1>
+
+        <button onclick="openWebsite()">
+            Click Here
+        </button>
+
+    </div>
+
+    <!-- Main Website -->
+    <div id="main-website">
+
+        <!-- Navbar -->
+        <nav>
+
+            <div class="logo">MyWebsite</div>
+
+            <ul>
+                <li><a href="#" onclick="showSection('home')">Home</a></li>
+                <li><a href="#" onclick="showSection('about')">About</a></li>
+                <li><a href="#" onclick="showSection('services')">Services</a></li>
+                <li><a href="#" onclick="showSection('explore')">Explore</a></li>
+                <li><a href="#" onclick="showSection('contact')">Contact</a></li>
+            </ul>
+
+        </nav>
+
+        <!-- Home -->
+        <section id="home" class="section active">
+
+            <h1>Welcome to My Website</h1>
+
+            <p>
+                I am a passionate web developer creating modern,
+                responsive, and attractive websites.
+            </p>
+
+        </section>
+
+        <!-- About -->
+        <section id="about" class="section">
+
+            <h2>About Me</h2>
+
+            <p>
+                Hello! My name is Harshitha. I am a B.Tech student
+                and aspiring web developer passionate about creating
+                beautiful websites.
+            </p>
+
+        </section>
+
+        <!-- Services -->
+        <section id="services" class="section">
+
+            <h2>My Services</h2>
+
+            <div class="service-container">
+
+                <div class="card">
+                    <h3>Web Design</h3>
+                    <p>Modern and attractive website layouts.</p>
+                </div>
+
+                <div class="card">
+                    <h3>Responsive Design</h3>
+                    <p>Mobile-friendly websites for all devices.</p>
+                </div>
+
+                <div class="card">
+                    <h3>Frontend Development</h3>
+                    <p>Interactive websites using HTML CSS JavaScript.</p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Explore -->
+        <section id="explore" class="section">
+
+            <h2>Explore More</h2>
+
+            <p>
+                Explore my latest projects and creative UI designs.
+            </p>
+
+        </section>
+
+        <!-- Contact -->
+        <section id="contact" class="section">
+
+            <h2>Contact Me</h2>
+
+            <div class="contact-box">
+
+                <p>Email: Harshitha@example.com</p>
+                <p>Phone: +91 9876543210</p>
+
+            </div>
+
+        </section>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
